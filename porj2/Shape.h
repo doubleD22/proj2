@@ -16,3 +16,6 @@ public:
 								 //another point coordinates
 	virtual string who_am_i()=0; //the name says it all 
 };
+
+
+//david stop eating
