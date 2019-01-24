@@ -2,6 +2,8 @@
 
 Shape::Shape(const Point & org, const Color color)
 {
+	m_org = org;
+	m_color = color;
 }
 
 Shape::~Shape()
@@ -10,6 +12,7 @@ Shape::~Shape()
 
 void Shape::draw()
 {
+
 }
 
 void Shape::move(const Point & P)

@@ -144,7 +144,6 @@
   <ItemGroup>
     <ClInclude Include="Canvas.h" />
     <ClInclude Include="Circle.h" />
-    <ClInclude Include="C_Line.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Rectangle.h" />
@@ -153,7 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Canvas.cpp" />
-    <ClCompile Include="C_Line.cpp" />
     <ClCompile Include="drawing_app.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Point.cpp" />
