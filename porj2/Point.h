@@ -5,6 +5,12 @@ using namespace std;
 
 enum class Color { white=0, red, green, blue, yellow, black, END_OF_COLORS };
 
+std::ostream& operator << (std::ostream& os, const Color& c)
+{
+	os << c;
+	return os;
+}
+
 
 class Point {
 private:
@@ -30,5 +36,4 @@ public:
 		os << '(' << p.get_x() << ',' << p.get_y() << ')';
 		return os;
 	}
-
 };

@@ -5,11 +5,10 @@
 class Circle : public Shape
 {
 protected:
-	Point m_center;
+	unsigned m_radius;
 public:
-	Circle(const Point& center, unsigned radius, const Color c);
-	void move(const Point& p);
+	Circle(const Point& center, const unsigned& radius, const Color c);
+	Point get_radius() const;
 	void draw() const;
-	double length() const;
-	string who_am_i();
+	void scale(const int& factor);
 };
